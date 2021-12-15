@@ -1,10 +1,11 @@
 module Modulus exposing (D(..), D1(..), D2(..), D3(..), D4(..), D5(..), D6(..), D7(..), D8(..), D9(..), Modulus, d0, d1, d2, d3, d4, d5, d6, d7, d8, d9, f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, modBySafe)
 
-import Html
+import Html exposing (Html)
 
 
+main : Html msg
 main =
-    Html.text "Hello!"
+    Html.text ""
 
 
 type D f p
